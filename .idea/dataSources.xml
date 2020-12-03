@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@account_3301" uuid="a7e3c3d6-8d32-487c-9a0d-99f14435cce8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.2.129:3301</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@order_3302" uuid="3df963db-dec5-4797-9e28-e76045ef89e9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.2.129:3302</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@storage_3303" uuid="e508a7cf-d78f-4f9c-ab17-64a8222fcecd">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.2.129:3303</jdbc-url>
+    </data-source>
+  </component>
+</project>
