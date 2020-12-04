@@ -33,8 +33,8 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'com.alibaba:druid-spring-boot-starter:1.2.3'
-	// https://mvnrepository.com/artifact/io.seata/seata-spring-boot-starter
-	compile group: 'io.seata', name: 'seata-spring-boot-starter', version: '1.4.0'
+	// https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-seata
+	compile group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-seata', version: '2.2.3.RELEASE'
 	runtimeOnly "mysql:mysql-connector-java"
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'

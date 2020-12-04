@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(name = "storage-service")
 public interface StorageFeignClient {
-    @GetMapping("/deduct")
-    void deduct(@RequestParam("commodityCode") String commodityCode,
-                @RequestParam("count") Integer count);
+    @GetMapping(value = "/deduct")
+    String decrease(@RequestParam String commodityCode, @RequestParam Integer count);
+
 }

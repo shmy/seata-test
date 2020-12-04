@@ -28,8 +28,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
-	// https://mvnrepository.com/artifact/io.seata/seata-spring-boot-starter
-	compile group: 'io.seata', name: 'seata-spring-boot-starter', version: '1.4.0'
+	// https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-seata
+	compile group: 'com.alibaba.cloud', name: 'spring-cloud-starter-alibaba-seata', version: '2.2.3.RELEASE'
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
